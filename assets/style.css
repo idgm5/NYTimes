@@ -2,6 +2,14 @@ body {
   margin: 0;
 }
 
+p {
+  display: block;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(51, 51, 51);
+}
+
 .topBar-container {
   padding: 0;
   display: flex;
@@ -99,6 +107,34 @@ body {
 .post-content-article {
   display:grid;
   grid-template-rows: auto auto auto;
+}
+
+.article-text {
+  text-align: justify;
+}
+
+.editor-pick {
+  display: flex;
+  flex-direction: column;
+}
+
+.editor-pick-article {
+  display: flex;
+  align-items: center;
+}
+
+.editor-pick-article > img {
+  width: 25%;
+  height: 25%;
+}
+
+.editor-pick-article > h4 {
+  margin-left: 5%;
+}
+
+}
+.article-text-row-3 > p > span {
+  font-weight: 700;
 }
 .author {
   display: flex;
