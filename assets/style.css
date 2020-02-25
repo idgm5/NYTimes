@@ -48,26 +48,45 @@ body {
 .postHeader {
   display: flex;
   flex-direction: column;
-
+  align-items: center;
 }
 
 .postHeader-image{
   text-align: center;
+  width: 80%;
 }
 
 .postHeader-image > img{
-  max-width: 85%;
+  max-width: 75%;
 }
 
 .postHeader-title {
   text-align: center;
+  width: 50%;
+}
+
+.postHeader-title > h4 {
+  color: #121212;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: left;
+  font-weight: 700;
 }
 
 .postHeader-subtitle {
   text-align: center;
+  width: 80%;
 }
 
 .postHeader-subtitle > p {
-  margin-left: 7%;
+  margin-left: 12%;
   margin-right: 7%;
+  color: rgba(102,102,102);
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
+  max-width: 75%;
 }
