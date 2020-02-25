@@ -1,1 +1,47 @@
+body {
+  margin: 0;
+}
 
+.topBar-container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  flex-flow: row wrap;
+}
+
+.logo-container {
+  width: 50%;
+  text-align: center;
+}
+
+.logo {
+  max-width: 100%;
+  width: 230px;
+}
+
+.topBar-title {
+  font-size: 14.25px;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-weight: 700;
+}
+
+.topBar-subscribe {
+  border-radius: 3px;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 11px 12px 8px;
+}
+
+.topBar-account {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
