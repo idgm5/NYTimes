@@ -52,5 +52,22 @@ body {
 }
 
 .postHeader-image{
-  max-width: 100%;
+  text-align: center;
+}
+
+.postHeader-image > img{
+  max-width: 85%;
+}
+
+.postHeader-title {
+  text-align: center;
+}
+
+.postHeader-subtitle {
+  text-align: center;
+}
+
+.postHeader.subtitle > p {
+  margin-left: 7%;
+  margin-right: 7%;
 }
