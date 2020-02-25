@@ -118,3 +118,12 @@ body {
   display: inline-block;
   padding-left: 20px;
 }
+
+.more-articles {
+  text-align: center;
+}
+
+.more-articles a {
+  text-decoration: none;
+  color: rgb(50, 104, 145);
+}
