@@ -44,3 +44,13 @@ body {
   font-weight: 500;
   font-size: 12px;
 }
+
+.postHeader {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.postHeader-image{
+  max-width: 100%;
+}
