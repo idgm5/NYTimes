@@ -90,3 +90,31 @@ body {
   text-align: left;
   max-width: 75%;
 }
+
+.postContent {
+  display: grid;
+  grid-template-columns: 35% auto 35%;
+}
+
+.post-content-article {
+  display:grid;
+  grid-template-rows: auto auto auto;
+}
+.author {
+  display: flex;
+  flex-direction: column;
+}
+
+.datetime {
+  display: flex;
+  justify-content: space-between;
+}
+.datetime li {
+  list-style: none;
+  display: inline-block;
+}
+
+.datetime ul li {
+  display: inline-block;
+  padding-left: 20px;
+}
