@@ -164,6 +164,37 @@ p {
   color: rgb(50, 104, 145);
 }
 
+.article-video span {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #666;
+  margin-right: 7px;
+}
+
+#credit {
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  color:#888;
+}
+
+.telescope img {
+  max-width: 100%;
+}
+.telescope div {
+  margin-left: 0px;
+  margin-right: 20px;
+  color: #666;
+}
+
+
+#Bicep-telescope-des {
+  font-size: 0.9375rem;
+}
+
+#Bicep-telescope-des + span{
+  font-size: 0.8125rem;
+}
+
 .third-column {
   display: flex;
   align-items: center;
