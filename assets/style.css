@@ -134,7 +134,7 @@ p {
 
 }
 .article-text-row-3 > p > span {
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 .author {
   display: flex;
@@ -162,4 +162,14 @@ p {
 .more-articles a {
   text-decoration: none;
   color: rgb(50, 104, 145);
+}
+
+.third-column {
+  display: flex;
+  align-items: center;
+}
+
+.row-2-right {
+  width: 60%;
+  margin-left: 20%;
 }
