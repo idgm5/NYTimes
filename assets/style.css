@@ -241,6 +241,7 @@ p {
 .more-articles {
   width: 60%;
   margin: auto auto;
+  text-align: left;
 }
 
 .more-articles-container {
@@ -249,7 +250,7 @@ p {
 }
 
 .more-articles-container hr {
-  border: 1px solid grey; 
+  border: 1px solid grey;
   width: 100%;
 }
 
@@ -264,15 +265,19 @@ p {
 }
 
 .most-popular hr {
-  border: 1px solid grey; 
+  border: 1px solid grey;
   width: 60%;
 }
 
 .more-articles-floats div, .more-articles-editors-pick div {
   float: left;
   width: 33%;
+  padding: 5px;
 }
 
+.more-articles-image {
+  max-width: 100%;
+}
 
 /* .most-popular {
   width: 30%;
