@@ -196,6 +196,11 @@ p {
 .third-column {
   display: flex;
   align-items: center;
+  flex-direction: column;
+}
+
+.third-column-div {
+  height: 11%;
 }
 
 .row-2-right {
@@ -240,6 +245,17 @@ p {
   width: 85%;
   margin: auto auto;
   text-align: left;
+}
+
+.more-articles-free {
+  width: 85%;
+  margin: auto auto;
+  text-align: center;
+
+}
+
+.more-articles-free > span > a {
+  text-decoration: none;
 }
 
 .more-articles-container {
