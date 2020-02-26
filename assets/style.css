@@ -4,7 +4,7 @@ body {
 
 p {
   display: block;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 20px;
   line-height: 30px;
   color: rgba(51, 51, 51);
@@ -31,7 +31,7 @@ p {
 
 .topBar-title {
   font-size: 14.25px;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
 }
 
@@ -59,12 +59,12 @@ p {
   align-items: center;
 }
 
-.postHeader-image{
+.postHeader-image {
   text-align: center;
   width: 80%;
 }
 
-.postHeader-image > img{
+.postHeader-image > img {
   max-width: 75%;
 }
 
@@ -75,7 +75,7 @@ p {
 
 .postHeader-title > h4 {
   color: #121212;
-  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-style: italic;
   font-size: 40px;
   line-height: 48px;
@@ -91,8 +91,8 @@ p {
 .postHeader-subtitle > p {
   margin-left: 12%;
   margin-right: 7%;
-  color: rgba(102,102,102);
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  color: rgba(102, 102, 102);
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 15px;
   line-height: 20px;
   text-align: left;
@@ -105,7 +105,7 @@ p {
 }
 
 .post-content-article {
-  display:grid;
+  display: grid;
   grid-template-rows: auto auto auto;
 }
 
@@ -132,10 +132,10 @@ p {
   margin-left: 5%;
 }
 
-
 .article-text-row-3 > p > span {
   font-weight: 700 !important;
 }
+
 .author {
   display: flex;
   flex-direction: column;
@@ -145,6 +145,7 @@ p {
   display: flex;
   justify-content: space-between;
 }
+
 .datetime li {
   list-style: none;
   display: inline-block;
@@ -154,8 +155,6 @@ p {
   display: inline-block;
   padding-left: 20px;
 }
-
-
 
 .more-articles a {
   text-decoration: none;
@@ -172,24 +171,24 @@ p {
 #credit {
   font-size: 0.8125rem;
   line-height: 1.125rem;
-  color:#888;
+  color: #888;
 }
 
 .telescope img {
   max-width: 100%;
 }
+
 .telescope div {
   margin-left: 0px;
   margin-right: 20px;
   color: #666;
 }
 
-
 #Bicep-telescope-des {
   font-size: 0.9375rem;
 }
 
-#Bicep-telescope-des + span{
+#Bicep-telescope-des + span {
   font-size: 0.8125rem;
 }
 
@@ -209,16 +208,15 @@ p {
 }
 
 .infographics {
-  display:flex;
+  display: flex;
   flex-direction: column;
   margin-left: -20rem;
   margin-right: -20rem;
-
 }
 
 .infographics-header > h4 {
   font-size: 25px;
-  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
   font-weight: 700;
   line-height: 1.5rem;
 }
@@ -227,8 +225,9 @@ p {
   color: #666;
   font-weight: 400;
 }
+
 .infographics-content {
-  max-width:100%;
+  max-width: 100%;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
 }
@@ -251,7 +250,6 @@ p {
   width: 85%;
   margin: auto auto;
   text-align: center;
-
 }
 
 .more-articles-free > span > a {
@@ -269,12 +267,12 @@ p {
 }
 
 .more-space {
-  display:grid;
+  display: grid;
   grid-template-rows: auto auto;
 }
 
 .most-popular {
-  display:flex;
+  display: flex;
   flex-direction: column;
   margin-left: 4rem;
   width: 15rem;
@@ -301,6 +299,7 @@ p {
   border: 0.5px solid #BEBEB6 !important;
   width: 100%;
 }
+
 .more-articles-image {
   max-width: 100%;
 }
@@ -320,21 +319,22 @@ p {
 }
 
 .logo-bottom-container {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
+
 .logo-bottom-container .logo {
   width: 20%;
 }
 
 .logo-bottom-container a {
-  color:#567b95;
-font-family: nyt-franklin;
-font-size: 11px;
-font-style: normal;
-font-weight: 400;
-line-height: 11px;
+  color: #567b95;
+  font-family: nyt-franklin;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
 }
 
 .logo-bottom-container div {
@@ -346,6 +346,7 @@ line-height: 11px;
   width: 100%;
   justify-content: space-between;
 }
+
 .bottomBar-nav div {
   width: 15%;
 }
@@ -370,9 +371,9 @@ line-height: 11px;
 
 .copyright a {
   font-size: 10px;
-  color: rgba(102,102,102);
+  color: rgba(102, 102, 102);
   font-weight: 400;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 .subscribe-bottom {
