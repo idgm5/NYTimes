@@ -262,19 +262,24 @@ p {
 .most-popular {
   display:flex;
   flex-direction: column;
+  margin-left: 4rem;
+  width: 15rem;
 }
 
 .most-popular hr {
-  border: 1px solid grey;
-  width: 60%;
+  border: 0.5px solid grey;
+  width: 100%;
 }
 
 .more-articles-floats div, .more-articles-editors-pick div {
   float: left;
-  width: 33%;
+  width: 31%;
   padding: 5px;
 }
 
+.more-articles-black-line {
+  border: 0.5px solid black !important;
+}
 .more-articles-image {
   max-width: 100%;
 }
