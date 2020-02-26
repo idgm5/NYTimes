@@ -71,6 +71,7 @@ p {
 .postHeader-title {
   text-align: center;
   width: 50%;
+  margin-left: 7%;
 }
 
 .postHeader-title > h4 {
