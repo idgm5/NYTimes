@@ -210,9 +210,20 @@ p {
   flex-direction: column;
   margin-left: -20rem;
   margin-right: -20rem;
-  
+
 }
 
+.infographics-header > h4 {
+  font-size: 25px;
+  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.infographics-header > p {
+  color: #666;
+  font-weight: 400;
+}
 .infographics-content {
   max-width:100%;
   display: grid;
@@ -221,4 +232,8 @@ p {
 
 .infographics-content div {
   margin: 10px;
+}
+
+.infographics-image {
+  max-width: 100%;
 }
