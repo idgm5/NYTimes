@@ -71,7 +71,6 @@ p {
 .postHeader-title {
   text-align: center;
   width: 50%;
-  margin-left: 7%;
 }
 
 .postHeader-title > h4 {
@@ -204,4 +203,22 @@ p {
 .row-2-right {
   width: 60%;
   margin-left: 20%;
+}
+
+.infographics {
+  display:flex;
+  flex-direction: column;
+  margin-left: -20rem;
+  margin-right: -20rem;
+  
+}
+
+.infographics-content {
+  max-width:100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.infographics-content div {
+  margin: 10px;
 }
