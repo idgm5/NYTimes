@@ -238,6 +238,42 @@ p {
   max-width: 100%;
 }
 
-.most-popular {
-  width: 30%;
+.more-articles {
+  width: 60%;
+  margin: auto auto;
 }
+
+.more-articles-container {
+  display: grid;
+  grid-template-columns: auto 30%;
+}
+
+.more-articles-container hr {
+  border: 1px solid grey; 
+  width: 100%;
+}
+
+.more-space {
+  display:grid;
+  grid-template-rows: auto auto;
+}
+
+.most-popular {
+  display:flex;
+  flex-direction: column;
+}
+
+.most-popular hr {
+  border: 1px solid grey; 
+  width: 60%;
+}
+
+.more-articles-floats div, .more-articles-editors-pick div {
+  float: left;
+  width: 33%;
+}
+
+
+/* .most-popular {
+  width: 30%;
+} */
