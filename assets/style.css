@@ -237,3 +237,7 @@ p {
 .infographics-image {
   max-width: 100%;
 }
+
+.most-popular {
+  width: 30%;
+}
