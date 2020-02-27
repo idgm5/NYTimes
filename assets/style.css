@@ -33,6 +33,8 @@ p {
   font-size: 14.25px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
+  text-decoration: none;
+  color: black;
 }
 
 .topBar-subscribe {
