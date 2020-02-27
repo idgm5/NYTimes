@@ -437,3 +437,32 @@ iframe {
   width: 100%;
   margin-bottom: 1rem;
 }
+ .fixed-footer {
+   position: fixed;
+   bottom: 0;
+   margin: 0;
+   background-color: #333332;
+   width: 100%;
+   height: 80px;
+   display: flex;
+   justify-content: space-around;
+
+ }
+
+ .fixed-footer p {
+  display: block;
+  color: white;
+  padding: 5px;
+  margin:auto auto;
+  font-family: nyt-franklin, serif;
+ }
+
+ .fixed-footer p a {
+  color: white;
+  text-decoration: none;
+ }
+
+ .fixed-footer span {
+   font-weight: 100;
+ }
+ 
