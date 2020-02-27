@@ -53,6 +53,10 @@ p {
   font-size: 12px;
 }
 
+.postContainer h2 {
+  display: none;
+}
+
 .postHeader {
   display: flex;
   flex-direction: column;
