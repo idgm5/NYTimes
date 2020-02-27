@@ -23,6 +23,7 @@ https://rawcdn.githack.com/ghamtre/NYTimes/0889520fa1744f867337c8c24da862973c59b
 👤 **Isaac Gonzalez**
 - [Twitter](https://twitter.com/idgm5)
 - [Github](https://github.com/Ghamtre/)
+- Test
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
